@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th10 21, 2021 lúc 08:39 AM
+-- Thời gian đã tạo: Th10 21, 2021 lúc 09:57 AM
 -- Phiên bản máy phục vụ: 10.4.21-MariaDB
 -- Phiên bản PHP: 8.0.10
 
@@ -47,9 +47,9 @@ CREATE TABLE `patient` (
 --
 
 INSERT INTO `patient` (`patientid`, `firstname`, `lastname`, `dateofbirth`, `gender`, `mobile`, `email`, `height`, `weight`, `blood_type`, `created_on`, `modified_on`) VALUES
-(1, 'văn a', 'nguyễn', '2004-10-20', 'nam', '19001009', 'quangho@gmail.com', 170, 60, 'AB', '2021-10-21 08:24:53', '0000-00-00 00:00:00'),
 (2, 'văn b', 'nguyễn', '2004-10-20', 'nam', '19001009', 'quangho@gmail.com', 177, 66, 'O', '2021-10-21 08:29:46', '0000-00-00 00:00:00'),
-(3, 'văn c', 'nguyễn', '2004-10-20', 'nữ', '19001009', 'quangho@gmail.com', 150, 45, 'AB', '2021-10-21 08:31:11', '2021-10-21 08:31:11');
+(3, 'văn a', 'nguyễn', '2004-10-20', 'nam', '19001009', 'quangho@gmail.com', 170, 60, 'O', '2021-10-21 09:55:28', '2021-10-21 09:55:28'),
+(5, 'văn a', 'nguyễn', '2004-10-20', 'nam', '19001009', 'quangho@gmail.com', 170, 60, 'AB', '2021-10-21 09:54:43', '2021-10-21 09:54:43');
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -69,7 +69,7 @@ ALTER TABLE `patient`
 -- AUTO_INCREMENT cho bảng `patient`
 --
 ALTER TABLE `patient`
-  MODIFY `patientid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `patientid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

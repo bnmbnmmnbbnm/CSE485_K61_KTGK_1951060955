@@ -16,26 +16,58 @@
             <div class="col-12">
                 <form method="POST">
                     <div class="mb-3 ">
-                        <label class="form-label">Họ và tên</label>
-                        <input type="text" name="bd_name" class="form-control">
+                        <label class="form-label">STT</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Mã bệnh nhân</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Tên</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Họ</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Ngày sinh</label>
+                        <input type="text" class="form-control">
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Giới tính</label>
-                        <input type="text" name="bd_sex" class="form-control">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Năm sinh(Tuổi)</label>
-                        <input type="text" name="bd_age" class="form-control">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Nhóm máu</label>
-                        <input type="text" name="bd_bgroup" class="form-control">
+                        <input type="text" class="form-control">
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Số điện thoại</label>
-                        <input type="text" name="bd_phno" class="form-control">
+                        <input type="text" class="form-control">
                     </div>
-                    <input type="submit" name="submit" class="add" value="Thêm">
+                    <div class="mb-3 ">
+                        <label class="form-label">Email</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Chiều Cao</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Cân nặng</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Nhóm máu</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Ngày lập sổ</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Ngày cập nhật</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <input type="submit" class="add" value="Thêm">
                 </form>
             </div>
         </div>

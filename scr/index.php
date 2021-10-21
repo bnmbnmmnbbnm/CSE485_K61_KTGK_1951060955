@@ -15,7 +15,7 @@ include("connect.php")
 <body>
     <div class="container">    <h1 class="text-center">Thông Tin Bệnh Nhân</h1></div>
     <div class="container">
-    <button type="button" class="btn btn-primary">Thêm</button>
+  <a href="add.php">Thêm</a>
     <table class="table">
         <thead>
             <tr>
@@ -28,7 +28,7 @@ include("connect.php")
             <th scope="col">Số điện thoại</th>
             <th scope="col">Email</th>
             <th scope="col">Chiều Cao</th>
-            <th scope="col">Câng nặng</th>
+            <th scope="col">Cân nặng</th>
             <th scope="col">Nhóm máu</th>
             <th scope="col">Ngày lập sổ</th>
             <th scope="col">Ngày cập nhật</th>
